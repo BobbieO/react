@@ -3,9 +3,13 @@ var React = require('react');
 var sayHello = React.createClass({
     render: function () {
         return (
-            <h1>Hello</h1>
+            <div>
+                <h1>Hola!</h1>
+            </div>
         );
     }
 });
 
 module.exports = sayHello;
+
+//view at http://localhost:8080
